@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD467B71-2197-CBDF-E3F6-80AC56EB726A" name="SprawozdanieFinansowe">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:09:11 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSprawozdanieFinansowe" id="D9FA0A38-AB8B-8A0E-48C7-2A6ACA0F4D6E">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:10:15 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataUtworzenia" id="0F9FFABB-D432-5E40-6CBA-81AB1FFEA87F">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:14:50 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>33E009A1-7F0E-E0F7-0803-5DA1D05E1BBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stanPoczatkowyJednostki" id="A3D12E16-CAE3-BCD2-644E-1BBC04F7D971">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:15:29 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>CFBC2725-EB3C-2088-2B56-3F6925CE79A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stanMajatkowyJednostki" id="FAB095AB-270A-4D3A-E416-22349AE4E426">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:15:46 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>CFBC2725-EB3C-2088-2B56-3F6925CE79A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rachunkiWydatki" id="6D036144-7158-D477-367A-FE64FF1D53C4">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:16:03 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<domain>CFBC2725-EB3C-2088-2B56-3F6925CE79A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozliczone" id="ADAD1C85-4B2A-77F0-A3E7-90EB1F6F7184">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:19:38 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>64F627E3-240D-5CB0-81AA-6F48FD5B0FC8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPracownik" id="D228AEB5-1DAE-A869-77E0-98ABD6C43A59">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:25:41 UTC</createdTime>
+<generatorID>BC16E291-236D-E37A-EF2B-39D2F6AB0A08</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7530AF2C-88ED-9F35-DB29-1866E47B6040</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DB46283-646A-C5D5-E6FB-73E264DE61B5" name="SprawozdanieFinansowe PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:13:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9FA0A38-AB8B-8A0E-48C7-2A6ACA0F4D6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

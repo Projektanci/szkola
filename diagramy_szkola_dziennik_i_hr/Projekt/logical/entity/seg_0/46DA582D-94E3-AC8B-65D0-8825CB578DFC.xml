@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46DA582D-94E3-AC8B-65D0-8825CB578DFC" name="Faktura">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:23:41 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idFaktura" id="2377D58D-F615-710D-37EC-C5570910DA2A">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:26:05 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataWystawienia" id="143FEC31-7CF5-4381-47F1-0607835135B1">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:26:11 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>33E009A1-7F0E-E0F7-0803-5DA1D05E1BBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="79C8B398-202D-7503-41CB-AAE7FDE645F1">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:26:32 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F170CA1F-4093-329D-D4DA-F847E4E48320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerFaktury" id="979A7847-BA10-9908-C05B-A5BDCEF3ECA8">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:28:01 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F170CA1F-4093-329D-D4DA-F847E4E48320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPracownik" id="BF6973BE-278B-FF25-FB7A-2E80F1301AE1">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:32:45 UTC</createdTime>
+<generatorID>D18B0E55-7D30-C84E-246E-E359479AB7FB</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7530AF2C-88ED-9F35-DB29-1866E47B6040</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3A37CD7-903A-1993-D1FE-E80767B143B7" name="Faktura PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:28:43 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2377D58D-F615-710D-37EC-C5570910DA2A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

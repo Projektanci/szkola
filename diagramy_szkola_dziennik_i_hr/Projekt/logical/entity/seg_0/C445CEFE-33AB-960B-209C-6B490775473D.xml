@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C445CEFE-33AB-960B-209C-6B490775473D" name="PodzialGodzin">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 17:34:16 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rok" id="010E6DEF-5455-7DB6-2D6A-25D6C1754C5C">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 18:06:06 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5A2BF0E7-5C4D-5146-7579-4687940C3821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idKlasa" id="A81E776D-ED07-8785-D8FB-57F2C6AD785E">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 18:07:33 UTC</createdTime>
+<generatorID>83340047-0AC1-D5D0-E257-DB38705832B3</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referedAttribute>712E1FC3-25DD-B7D8-D7AD-082B185D1828</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77899055-8B1E-B305-0692-8D5E6D1F8DE6" name="PodzialGodzin PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 18:11:58 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>010E6DEF-5455-7DB6-2D6A-25D6C1754C5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A864508-362A-0997-CD37-18462B0491CD" name="SzkolnyZestawProgramowNauczania">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 18:44:51 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tresc" id="B56AD8AE-E8BD-5210-C85F-51E9B7A94FFD">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 08:18:04 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F170CA1F-4093-329D-D4DA-F847E4E48320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rokSzkolny" id="6B014093-AF18-01FC-7206-FD4952367C57">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 08:30:05 UTC</createdTime>
+<generatorID>873C7F63-5EEB-0B8C-8545-0E0986CD2D87</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referedAttribute>3A894785-EC4E-633F-DFB5-2BC64F0C5002</referedAttribute>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>5A2BF0E7-5C4D-5146-7579-4687940C3821</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8D62B8C-CC3D-883D-2D08-7588ABF2C3E6" name="KryteriaOceniania PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 18:45:49 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

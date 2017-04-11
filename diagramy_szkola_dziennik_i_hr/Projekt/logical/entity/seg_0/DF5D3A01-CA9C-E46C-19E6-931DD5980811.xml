@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF5D3A01-CA9C-E46C-19E6-931DD5980811" name="Uczen">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 12:50:35 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>535C3033-4C0F-F42B-47C5-871A903293C6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUczen" id="876B8727-6403-29A8-FE9C-03BB0A1FBAEB">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 13:05:12 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idKlasa" id="9C279073-FFDD-4A1F-03EB-31B85D791261">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 13:05:46 UTC</createdTime>
+<generatorID>4833495F-0C96-EFBF-3C1B-43403D4F4D4B</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referedAttribute>712E1FC3-25DD-B7D8-D7AD-082B185D1828</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5E80EE2-00BA-6438-5745-677861336500" name="Uczen PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 13:05:33 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>876B8727-6403-29A8-FE9C-03BB0A1FBAEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

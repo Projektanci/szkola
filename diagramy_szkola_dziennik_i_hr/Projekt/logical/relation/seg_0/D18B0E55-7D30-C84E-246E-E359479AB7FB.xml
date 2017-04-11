@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="wystawia" directorySegmentName="seg_0" id="D18B0E55-7D30-C84E-246E-E359479AB7FB">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:32:35 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<sourcePk>A3A37CD7-903A-1993-D1FE-E80767B143B7</sourcePk>
+<targetPk>1C2040CA-8BD1-FB00-5C15-05A1FADBFBA8</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>46DA582D-94E3-AC8B-65D0-8825CB578DFC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3C4E70B6-201A-FC84-9AAF-74595B018E31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

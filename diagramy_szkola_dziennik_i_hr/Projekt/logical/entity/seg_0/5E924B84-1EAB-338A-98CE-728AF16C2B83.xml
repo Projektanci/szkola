@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E924B84-1EAB-338A-98CE-728AF16C2B83" name="InstytucjaDofinansowujaca">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:37:52 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idInstytucja" id="7176710A-99DB-A6F4-594A-3496E7572857">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:38:09 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="5E666738-7599-DFA9-AAAB-A20C244E3D47">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:38:21 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F170CA1F-4093-329D-D4DA-F847E4E48320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejscowosc" id="825C551E-E487-B08A-45BC-471C27D3F35D">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:38:30 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F170CA1F-4093-329D-D4DA-F847E4E48320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A34EF698-E393-95FB-7097-6CB2373F97D2" name="InstytucjaDofinansowujaca PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 09:38:19 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7176710A-99DB-A6F4-594A-3496E7572857</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E966DE4-23D4-C879-0CD0-0E133A764DF8" name="Wyposazenie">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 07:33:19 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSala" id="D70FC59A-4FE2-1012-9E2C-7AC50D21136A">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 07:37:21 UTC</createdTime>
+<generatorID>09E592D9-78A8-09CF-FD38-17FC9C0E7AC8</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referedAttribute>7AA98DE6-B567-1C26-42F3-DBC021C5E073</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F170CA1F-4093-329D-D4DA-F847E4E48320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPrzedmiot" id="17F30408-D3F7-D444-EADF-5AE8657F24ED">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 07:43:30 UTC</createdTime>
+<generatorID>D71A4C4C-2FFB-90FA-A06E-022D2B27F7FE</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referedAttribute>033794F1-6BC3-5798-92B4-CCA7A81F5AC2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

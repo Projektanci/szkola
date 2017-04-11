@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9FB928C4-33EB-C3E2-614C-5F027AFE5EFA" name="Klasa">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 12:50:32 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idKlasa" id="712E1FC3-25DD-B7D8-D7AD-082B185D1828">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 13:05:41 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idNauczyciel" id="D30668E0-7FA5-21A3-4DE2-11532BDB8AFA">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 18:13:38 UTC</createdTime>
+<generatorID>D2693D77-D43E-C0AD-4A12-35B2A995BD50</generatorID>
+<ownerDesignName>Projekt</ownerDesignName>
+<referedAttribute>F6E09202-B2E4-0BE4-45BA-3FDFFD55E5CD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>E94D5AD4-9897-63B2-3554-D891426F5F4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A59CB96-05A6-6EB9-35DD-646A592C2398" name="Klasa PK">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-10 13:05:45 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>712E1FC3-25DD-B7D8-D7AD-082B185D1828</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="posiada" directorySegmentName="seg_0" id="09E592D9-78A8-09CF-FD38-17FC9C0E7AC8">
+<createdBy>widelec</createdBy>
+<createdTime>2017-04-11 07:37:14 UTC</createdTime>
+<ownerDesignName>Projekt</ownerDesignName>
+<sourcePk>31DF8326-D9C1-E465-B999-D2D5215F2391</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60611E71-FA3A-3C2D-20F7-071499F9A7AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E966DE4-23D4-C879-0CD0-0E133A764DF8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
